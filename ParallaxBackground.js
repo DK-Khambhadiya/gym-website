@@ -90,10 +90,10 @@
                         percentScrolled = pixelScrolled / visibleScrollValue;
 
                         if(settings.invert){
-                            deltaTopScrollVal = percentScrolled * 100;
+                            deltaTopScrollVal = percentScrolled * 200;
                             $this.css({'background-position': '50% '+deltaTopScrollVal+'%'});
                         }else{
-                            deltaTopScrollVal = (1-percentScrolled) * 100;
+                            deltaTopScrollVal = (1-percentScrolled) * 200;
                             $this.css({'background-position': '50% '+deltaTopScrollVal+'%'});
                         }
                     }

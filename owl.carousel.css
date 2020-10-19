@@ -6,6 +6,7 @@
 /*
  *  Owl Carousel - Core
  */
+
 .owl-carousel {
   display: none;
   width: 100%;
@@ -32,6 +33,7 @@
   .owl-carousel .owl-stage-outer {
     position: relative;
     overflow: hidden;
+   
     /* fix for flashing background */
     -webkit-transform: translate3d(0px, 0px, 0px); }
 
@@ -40,6 +42,7 @@
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
+   
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0); }
